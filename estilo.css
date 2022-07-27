@@ -52,7 +52,7 @@ ul{
 }
 
 .principal__logo img{
-	width: 50%;
+	width: 250px;
 	height: 100%;
 	border-radius: 1000px;
 	object-fit: cover;
@@ -60,14 +60,14 @@ ul{
 }
 .principal__galeria-grid{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(150px,350px));
+	grid-template-columns: repeat(auto-fill, minmax(250px,350px));
 	grid-gap: 3em;
 	padding: 60px 60px 120px 60px ;
 	justify-content: center;
 }
 .galeria-grid__item{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	display: flex;
 	border-radius: 5px;
 	transition: all 300ms;
@@ -182,14 +182,10 @@ footer{
 	.navegacion__link{
 		padding: 0px 20px;
 	}
-	.principal__logo img{
-		width: 250px;
-	}
 	.galeria-grid__item{
 		width: 350px;
 		height: 350px;
 	}
-
 	footer{
 		height: 220px;
 	}
