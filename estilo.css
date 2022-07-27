@@ -52,7 +52,7 @@ ul{
 }
 
 .principal__logo img{
-	width: 250px;
+	width: 50%;
 	height: 100%;
 	border-radius: 1000px;
 	object-fit: cover;
@@ -182,10 +182,14 @@ footer{
 	.navegacion__link{
 		padding: 0px 20px;
 	}
+	.principal__logo img{
+		width: 250px;
+	}
 	.galeria-grid__item{
 		width: 350px;
 		height: 350px;
 	}
+
 	footer{
 		height: 220px;
 	}
